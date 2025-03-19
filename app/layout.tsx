@@ -17,7 +17,8 @@ export const metadata: Metadata = {
   description: "NapCart Logo Particles",
   icons: {
     icon: "/favicon.ico",
-    }
+    apple: "/favicon.ico",
+    },
 };
 
 export default function RootLayout({
