@@ -254,13 +254,21 @@ export default function Component() {
       />
       <div className="absolute bottom-[100px] text-center z-10">
         <p className="font-mono text-gray-400 text-xs sm:text-base md:text-sm ">
-          <a
+          {/* <a
             href="https://www.napcart.com"
             target="_blank"
             className="invite-link text-gray-300 hover:text-gray-100 transition-colors duration-300"
             rel="noreferrer"
           >
             Visit NapCart
+          </a> */}
+          <a
+            href="https://www.napcart.com"
+            target="_blank"
+            className="invite-link text-gray-300 hover:text-gray-100 transition-colors duration-300"
+            rel="noreferrer"
+          >
+            We Are Comming Soon!
           </a>
           <style>{`
             a.invite-link:hover {
