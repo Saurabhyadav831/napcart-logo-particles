@@ -1,11 +1,10 @@
 // import Image from "next/image";
-import Component from "@/napcart-logo-particles"
-import Image from "next/image";
+import LogoParticles from "@/napcart-logo-particles"
 
 export default function Home() {
   return(
     <>
-      <Component />
+      <LogoParticles />
     </>
   );
 }
